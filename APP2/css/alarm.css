@@ -1,0 +1,78 @@
+html,body {
+	background-color: #efeff4;
+	font-family: "微软雅黑";
+}
+.mui-bar.mui-bar-nav{
+	background-image: linear-gradient(to top,#137ab7 0,#337ab7 100%);
+}
+.mui-title{
+	color:#fff;
+}
+.mui-bar-nav>a{
+	color: #fff;
+}
+header{
+	height: 70px !important;
+	background-color: #337AB7 !important;
+}
+header>h1{
+	margin-top: 25px !important;
+	color: #fff !important;
+}
+header a{
+	margin-top: 25px !important;
+}
+/*底部导航*/
+nav.mui-bar{
+	background-color:#fff;
+}
+/*底部图标点击后的颜色*/
+.mui-bar-tab .mui-tab-item.mui-active {
+	background-color: #337ab7;
+	color: #fff;
+}
+/*底部图标未点击时的颜色*/
+.mui-bar-tab .mui-tab-item{
+	color: #000000;
+}
+#offCanvasContentScroll{
+	background-color: #fff ;
+	/*margin-top: 25px !important;*/
+}
+.alrt{
+	margin-top: 25px;
+}
+.icon2-ul{
+	margin-top: 25px !important;
+	padding-right: 10px;
+}
+.mui-table-view:after{
+	left: 15px !important;
+}
+.icon2-ul-mc{
+	font-weight: 700;
+	font-size: 16px;
+}
+.icon2-ul-sj{
+	position: absolute;
+	right: 35px;
+	/*top: 23px;*/
+	font-size: 12px;
+}
+.icon2-ul-bh{
+	padding-top: 5px ;
+	font-size: 16px;
+}
+.icon2-ul-fonta{
+	color: red;
+}
+.icon2-ul-fontb{
+	color: #F5CD19;
+}
+.icon2-ul-fontc{
+	color: #c8c8c8;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	right: 5px;
+	top: 21px;
+}

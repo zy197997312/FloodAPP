@@ -1,0 +1,61 @@
+body{
+	background-color: #fff;
+}
+.mui-bar-nav~.mui-content{
+	background-color:#fff;
+	padding: 70px 0 60px 0;
+}
+header{
+	height: 70px !important;
+	background-color: #337AB7 !important;
+}
+header>a{
+	margin-top: 25px !important;
+}
+/*标题*/
+.mui-bar.mui-bar-nav{
+	background-image: linear-gradient(to top,#137ab7 0,#337ab7 100%);
+}
+.mui-title{
+	color:#fff;
+}
+.mui-bar-nav>a{
+	color: #fff;
+}
+/*底部导航*/
+nav.mui-bar{
+	background-color:#fff;
+	font-size: 14px;
+}
+/*底部图标点击后的颜色*/
+.mui-bar-tab .mui-tab-item.mui-active {
+	background-color: #337ab7;
+	color: #fff;	
+}
+/*底部图标未点击时的颜色*/
+.mui-bar-tab .mui-tab-item{
+	color: #000;
+}
+/*灾害点信息*/
+#disanew>.title{
+	margin:10px 0 15px 10px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: 500;
+	color: #333;
+}
+.titletable{
+	width: 100%;
+	border-top:1px solid #E4E3E6;
+	padding:10px;
+}
+.titletable>table{
+	margin-left:10px;
+	font-size: 17px;
+}
+.titletable>table td{
+	padding: 2px 0;
+}
+.mui-media-body{
+	font-size: 17px;
+}

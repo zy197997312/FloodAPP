@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/login.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			var account;
+			var psd;
+			var registerBtn;
+			mui.plusReady(function() {
+				account = document.getElementById('account');
+				psd = document.getElementById('password');
+				registerBtn = document.getElementById('login');
+
+				registerBtn.addEventListener('tap', function() {
+					if(account.value.length <= 0) {
+						mui.toast('请输入账号！');
+						return;
+					}
+					if(psd.value.length <= 0) {
+						mui.toast('请输入密码！');
+						return;
+					}
+					mui.post('http://183.230.169.136:8048/system_meteor/androidLoginCheck.do', {
+						phoneNum: account.value,
+						password: psd.value
+					}, function(data) {
+						if(data.status == 200) {
+							mui.confirm('登录成功！');
+						}
+					}, 'json');
+				}, false);
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="loginImg">
+				<img src="img/logo.gif" />
+				<form id='login-form' class="mui-input-group">
+					<div class="mui-input-row">
+						<label>
+						<img src="img/account.png"/>
+					</label>
+						<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入账号">
+					</div>
+					<div class="mui-input-row">
+						<label>
+						<img src="img/password.png"/>
+					</label>
+						<input id='password' type="password" class="mui-input-clear mui-input" placeholder="请输入密码">
+					</div>
+				</form>
+				<div class="mui-content-padded">
+					<a id='login' class="mui-btn mui-btn-block mui-btn-primary">登录</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

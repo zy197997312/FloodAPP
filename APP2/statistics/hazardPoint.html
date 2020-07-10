@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script src="../js/mui.min.js"></script>
+        <link href="../css/mui.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/hazardPoint.css"/>
+	</head>
+
+	<body>
+	<!--主界面部分-->
+	<div class="mui-inner-wrap">
+		<header class="mui-bar mui-bar-nav" >
+			<a href="../index.html" class="mui-icon mui-icon-back"></a>
+		</header>
+		<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+		  	<div id="content" class="content" >
+            <!--对应底部第一个按键-->
+      	 	<div id="bottom-icon1" class="mui-control-content mui-active" >
+				<div class="icon1-centent">
+					<select class="icon1-select">
+		     			<option value="">蔡甸区</option>
+		     			<option value="">东西湖区</option>
+		     			<option value="">江夏区</option>
+		     		</select>
+		     		<span class="mui-icon mui-icon-arrowdown icon1-centent-tb"></span>
+		     		<input type="text"/>
+		     		<span class="icon1-sous-img"><img src="../img/sous.png"/></span>
+				</div>
+				<div class="icon1-centent-text">
+					<p>灾害分类</p>
+					<b></b>
+					<div class="icon1-centent-left">
+						<div><i class="i1"></i>滑坡　　　：22222个</div>
+						<div><i class="i2"></i>泥石流　　：7个</div>
+						<div><i class="i3"></i>危岩　　　：8个</div>
+						<div><i class="i4"></i>不稳定斜坡：4个</div>
+						<div><i class="i5"></i>地面塌陷　：3个</div>
+						<div><i class="i6"></i>地裂缝　　：9个</div>
+						<div><i class="i7"></i>库岸　　　：12个</div>
+					</div>
+					<div class="icon1-centent-right1"></div>
+				</div>
+				<div class="icon1-centent-text">
+					<p>规模</p>
+					<b></b>
+					<div class="icon1-centent-left">
+						<div><i class="i3"></i>特大　：4个</div>
+						<div><i class="i4"></i>大型　：2个</div>
+						<div><i class="i5"></i>中型　：8个</div>
+						<div><i class="i6"></i>小型　：5个</div>
+					</div>
+					<div class="icon1-centent-right2"></div>
+				</div>
+				<div class="icon1-centent-text">
+					<p>稳定性</p>
+					<b></b>
+					<div class="icon1-centent-left">
+						<div><i class="i1"></i>稳定　　：8个</div>
+						<div><i class="i2"></i>基本稳定：4个</div>
+						<div><i class="i3"></i>不稳定　：0个</div>
+						<div><i class="i4"></i>欠稳定　：2个</div>
+					</div>
+					<div class="icon1-centent-right3"></div>
+				</div>
+			</div>
+		    <!--对应底部第二个按键-->
+		   	<div id="bottom-icon2" class="mui-control-content" >
+		     	<div class="icon2-centent">
+		     		<select class="icon2-select">
+		     			<option value="">滑坡</option>
+		     			<option value="">泥石流</option>
+		     			<option value="">危岩</option>
+		     			<option value="">不稳定斜坡</option>
+		     			<option value="">地面塌陷</option>
+		     			<option value="">地裂缝</option>
+		     			<option value="">库岸</option>
+		     		</select>
+		     		<span class="mui-icon mui-icon-arrowdown icon2-centent-tb"></span>
+		     		<input type="text"/>
+		     		<span class="icon2-sous-img"><img src="../img/sous.png"/></span>
+		     		<a href="arcGis.html"><img class="icon2-ditu" src="../img/ditu.png"/></a>
+		     	</div>
+		     	<div class="icon2-ul">
+			     	<ul class="mui-table-view">
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right" href="disastercontent.html">
+					        	<div>
+					        		<span class="icon2-ul-mc icon2-ul-fonta">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fonta">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right" href="disastercontent.html">
+					        	<div>
+					        		<span class="icon2-ul-mc icon2-ul-fontb">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontb">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right" href="disastercontent.html">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell">
+					        <a class="mui-navigate-right">
+					        	<div>
+					        		<span class="icon2-ul-mc">羊角镇滑坡</span>
+					        		<span class="icon2-ul-sj icon2-ul-fontc">2016-03-12</span>
+					        	</div>
+					        	<div class="icon2-ul-bh icon2-ul-fontc">500232107240101</div>
+					        </a>
+					    </li>
+					</ul>
+				</div>
+		   	</div> 
+		    <!--对应底部第三个按键-->
+		   	<div id="bottom-icon3" class="mui-control-content">
+		     	<p>动态告警</p>
+		     	<ul class="mui-table-view">
+				    <li class="mui-table-view-cell">
+				        <a class="mui-navigate-right" href="alarm.html">定量检测告警：81条</a>
+				    </li>
+				    <li class="mui-table-view-cell">
+				        <a class="mui-navigate-right" href="alarm.html">宏观巡检告警：89条</a>
+				    </li>
+				    <li class="mui-table-view-cell">
+				        <a class="mui-navigate-right" href="alarm.html">综合告警　　：113条</a>
+				    </li>
+				</ul>
+		   	</div>
+		</div>
+	</div>
+		<!--底部导航3个按键-->
+        <nav id="nav" class="mui-bar mui-bar-tab" >
+        	<a class="mui-tab-item  mui-active" href="#bottom-icon1" >
+				<div class="mui-media-body">分类统计</div>
+			</a>
+			<a class="mui-tab-item" href="#bottom-icon2">
+				<div class="mui-media-body">灾害信息</div>
+			</a>
+			<a class="mui-tab-item" href="#bottom-icon3">
+				<div class="mui-media-body">动态告警</div>
+			</a>
+		</nav>
+		 
+	</div>
+	<!--<script src="js/hazardPoint.js" type="text/javascript" charset="utf-8"></script>-->
+</body>
+</html>

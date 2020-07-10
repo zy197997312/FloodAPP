@@ -1,0 +1,248 @@
+html,body {
+	background-color: #efeff4;
+	font-family: "微软雅黑";
+}
+.mui-off-canvas-left {
+	color: #fff;
+}
+.content{
+	/*margin-top:44px;*/
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+header{
+	height: 70px !important;
+	background-color: #337AB7 !important;
+}
+header>a{
+	margin-top: 25px !important;
+}
+/*标题*/
+.mui-bar.mui-bar-nav{
+	background-image: linear-gradient(to top,#137ab7 0,#337ab7 100%);
+}
+.mui-title{
+	color:#fff;
+}
+.mui-bar-nav>a{
+	color: #fff;
+}
+/*头部折叠图标*/
+.mui-icon.mui-action-menu.mui-icon-bars{
+	color:#fff;
+}
+/*底部导航*/
+nav.mui-bar{
+	background-color:#fff;
+}
+/*底部图标点击后的颜色*/
+.mui-bar-tab .mui-tab-item.mui-active {
+	background-color: #337ab7;
+	color: #fff;
+}
+/*底部图标未点击时的颜色*/
+.mui-bar-tab .mui-tab-item{
+	color: #000000;
+}
+/*主体内容*/
+#offCanvasContentScroll{
+	background-color: #fff ;
+	margin-top: 30px !important;
+}
+.mui-media-body{
+	font-size: 16px;
+}
+#bottom-icon1{
+	padding: 10px;
+}
+.icon1-centent-text::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.icon1-centent-left{
+	width: 56%;
+    float: left;
+    margin-bottom: 10px;
+    font-size:15px;
+}
+.icon1-centent-right1{
+	width: 44%;
+    float: right;
+    height: 147px;
+    margin-bottom: 10px;
+}
+.icon1-centent-right2{
+	width: 44%;
+    float: right;
+    height: 84px;
+    margin-bottom: 10px;
+}
+.icon1-centent-right3{
+	width: 44%;
+    float: right;
+    height: 84px;
+    margin-bottom: 10px;
+}
+.icon1-centent-text>p{
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	margin-bottom: 15px;
+}
+.icon1-centent-text>b{
+	display: block;
+	width: calc(100%-20px);
+	margin-bottom: 8px;
+	border-bottom: 1px solid #E4E3E6;
+}
+.icon1-centent-text>div{
+	padding-left: 10px;
+}
+/*#bottom-icon1:first-child{
+	margin-top: 10px;
+}*/
+.icon1-centent{
+	height: 57px;
+}
+.icon1-centent-text i{
+	display: inline-block;	
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+}
+.i1{background-color: #d9ebb1;}
+.i2{background-color: #b7ddc8;}
+.i3{background-color: #95d0de;}
+.i4{background-color: #99ce7e;}
+.i5{background-color: #61bba1;}
+.i6{background-color: #5dbbc5;}
+.i7{background-color: #5796cc;}
+.icon1-select{
+	float: left;
+	width: 110px;
+	height: 35px;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #c1c1c1 !important;
+	border-radius: 0;
+}
+.icon1-centent>input{
+	float: right;
+	width: calc(100% - 110px);
+	height: 35px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	border-left: none;
+	border-radius: 0;
+}
+.icon1-sous-img{
+	position: absolute;
+	top: 18px;
+	right:5px;
+	width: 35px;
+	height: 35px;
+}
+.icon1-sous-img>img{
+	width: 20px;
+}
+.icon1-centent-tb{
+	position: absolute;
+	top: 20px;
+	left: 102px;
+	font-size: 14px;
+}
+.icon2-centent{
+	height: 57px;
+}
+.icon2-select{
+	float: left;
+	width: 110px;
+	height: 35px;
+	margin: 10px 0 10px 10px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #c1c1c1 !important;
+	border-radius: 0;
+}
+.icon2-centent>input{
+	float: right;
+	width: calc(100% - 180px);
+	height: 35px;
+	margin: 10px 60px 10px 0;
+	border-left: none;
+	border-radius: 0;
+}
+.icon2-sous-img{
+	position: absolute;
+	top: 17px;
+	right: 55px;
+	width: 35px;
+	height: 35px;
+}
+.icon2-sous-img>img{
+	width: 20px;
+}
+.mui-table-view:before{
+	height: 0;
+}
+.mui-table-view:after{
+ 	height: 0;
+}
+.icon2-centent-tb{
+	position: absolute;
+	top: 20px;
+	left: 102px;
+	font-size: 14px;
+}
+.icon2-ditu{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	height: 28px;
+}
+/*列表*/
+.icon2-ul{
+	padding-right: 10px;
+}
+.icon2-ul-mc{
+	font-weight: 700;
+	font-size: 16px;
+}
+.icon2-ul-sj{
+	position: absolute;
+	right: 35px;
+	/*top: 23px;*/
+	font-size: 12px;
+}
+.icon2-ul-bh{
+	padding-top: 5px ;
+	font-size: 16px;
+}
+.icon2-ul-fonta{
+	color: red;
+}
+.icon2-ul-fontb{
+	color: #F5CD19;
+}
+.icon2-ul-fontc{
+	color: #c8c8c8;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	right: 5px;
+	top: 21px;
+}
+#bottom-icon3>p{
+	margin: 10px;
+	color: #333;
+	font-weight: 500;
+	font-size: 18px;
+}
+#bottom-icon3>ul{
+	padding-right: 10px;
+}
+/*动态告警*/
+.mui-ios .mui-table-view-cell {
+	font-size: 15px;
+}
